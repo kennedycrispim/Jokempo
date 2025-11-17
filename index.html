@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOKEMPÔ</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <h1>JOKEMPÔ!</h1>
+      <div class="def-box-padrao box_score">
+        <div class="box_score_inf_escolha">
+          <p>Voce</p>
+        </div>
+        <div class="box_score_inf_placar def-box-padrao">
+          <span id="score">0</span>
+          <span>:</span>
+          <span id="machine-score">0</span>
+        </div>
+        <div class="box_score_inf_maquina">
+          <p>Maquina</p>
+        </div>
+      </div>
+      <div class="box-escolhas">
+        <img src="img/interrogacao.png" class="img-escolha" id="img-escolha">
+        <img src="img/interrogacao.png" class="img-escolha"  id="img-aleatorio">
+        <!--<p class="jogador1">Voce: <span id="voce">?</span></p>
+        <p class="jogador2">Adversario: <span id="adversario">?</span></p>-->
+      </div>
+      <div class="def-box-padrao box-resultado ">
+        <h3 class="resultado" id="resultado"></h3>
+      </div>
+      <div class="def-box-padrao box-buttons">
+        <img id="btn-pedra" class="opcao" src="img/pedra.png">
+        <img id="btn-tesoura" class="opcao" src="img/tesoura.png">
+        <img id="btn-papel" class="opcao" src="img/papel.png">
+        <img id="btn-reiniciar" class="opcao" src="img/recomecar.png">
+      </div>
+      
+    </div>
+  </section>
+  </body>
+  <script src="js/main.js"></script>
+</body>
+</html>
