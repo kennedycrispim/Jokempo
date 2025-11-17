@@ -14,4 +14,4 @@ O projeto foi desenvolvido utilizando a IDE **VSCode**.
 - Apresenta uma caixa score, onde e possivel visualizar a pontuacao do jogo
 - Botao de reiniciar, permite recomeçar o jogo.
 
-[Preview](jokempo-game.netlify.app)
+[Preview](https://jokempo-game.netlify.app/)
